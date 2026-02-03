@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILD ZONE HUB | By CAPYBARA</title>
+    <style>
+        :root {
+            --primary: #00a8ff;
+            --secondary: #f6821f;
+            --bg: #050a0e;
+            --card: #111b21;
+            --border: rgba(255,255,255,0.08);
+            --text: #e9edef;
+            --support: #00ff99;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 25px;
+            border: 2px solid var(--primary);
+            border-radius: 20px;
+            background: linear-gradient(135deg, #0d141b 0%, #050a0e 100%);
+            box-shadow: 0 10px 30px rgba(0, 168, 255, 0.1);
+        }
+        header h1 {
+            font-size: 26px;
+            margin: 0;
+            letter-spacing: 3px;
+            color: var(--primary);
+            text-transform: uppercase;
+        }
+        header .sub {
+            font-size: 11px;
+            color: var(--secondary);
+            font-weight: bold;
+            display: block;
+            margin-top: 8px;
+            letter-spacing: 1px;
+        }
+
+        /* Category Label */
+        .category-label {
+            font-size: 11px;
+            font-weight: 800;
+            color: #556b7d;
+            margin: 25px 0 12px 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+        }
+        .category-label::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #1d2a32;
+            margin-left: 10px;
+        }
+
+        /* Menu Link */
+        .menu-link {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .menu-link:hover {
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            background: #16242d;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 18px;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.03);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .link-text b {
+            display: block;
+            font-size: 15px;
+            color: var(--primary);
+            margin-bottom: 2px;
+        }
+        .link-text span {
+            font-size: 11px;
+            color: #aebac1;
+        }
+
+        /* Special Support Color */
+        .support-link b { color: var(--support) !important; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 30px;
+            font-size: 10px;
+            color: #444;
+            line-height: 1.6;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>BUILD ZONE</h1>
+        <span class="sub">STUDIO ROBLOX & LITE HUB</span>
+        <div style="font-size: 9px; color: #3b4a54; margin-top: 15px;">By CAPYBARA x DaFz • VERSION 1</div>
+    </header>
+
+    <div class="category-label">📂 Script Databases</div>
+    
+    <a href="https://dafz-star.github.io/SHARE-SCRIPT-STUDIO-ROBLOX-AND-STUDIO-LITE-BY-BUILD-ZONE/" class="menu-link" target="_blank">
+        <div class="icon">🛠️</div>
+        <div class="link-text">
+            <b>Share Script Studio</b>
+            <span>Database Khusus Roblox Studio & Lite</span>
+        </div>
+    </a>
+
+    <a href="https://dafz-star.github.io/SCRIPT-UPLOAD-BY-BUILD-ZONE/" class="menu-link" target="_blank">
+        <div class="icon">🚀</div>
+        <div class="link-text">
+            <b>Share script delta</b>
+            <span>Publikasikan Script delta anda</span>
+        </div>
+    </a>
+
+    <div class="category-label">👥 Community & Socials</div>
+
+    <a href="https://whatsapp.com/channel/0029VbBkZU9CcW4hYsr3BK07" class="menu-link" target="_blank">
+        <div class="icon">📢</div>
+        <div class="link-text">
+            <b>CHANNEL BUILD ZONE</b>
+            <span>Update Penting Build Zone</span>
+        </div>
+    </a>
+
+    <a href="https://whatsapp.com/channel/0029VbBQOzELikgExhJjcm1D" class="menu-link" target="_blank">
+        <div class="icon">🔔</div>
+        <div class="link-text">
+            <b>CHANNEL SHARE SCRIPT DELTA</b>
+            <span>Update Tambahan & Info Penting</span>
+        </div>
+    </a>
+
+    <a href="https://chat.whatsapp.com/DarRjyH8xZeCmd9e8R9r6e?mode=gi_c" class="menu-link" target="_blank">
+        <div class="icon">💬</div>
+        <div class="link-text">
+            <b>WhatsApp Group Chat</b>
+            <span>Diskusi Bersama Developer</span>
+        </div>
+    </a>
+
+    <a href="https://discord.gg/BfTAHZJDN" class="menu-link" target="_blank">
+        <div class="icon">👾</div>
+        <div class="link-text">
+            <b>Discord Server</b>
+            <span>Komunitas Discord Build Zone</span>
+        </div>
+    </a>
+
+    <div class="category-label">🛡️ Support Center</div>
+
+    <a href="https://whatsapp.com/channel/0029VbBsbzGKwqSOpSAxAR1R" class="menu-link support-link" target="_blank">
+        <div class="icon">🛡️</div>
+        <div class="link-text">
+            <b>Channel YOV GIOZZ</b>
+            <span>Channel Teman</span>
+        </div>
+    </a>
+
+    <a href="https://dafz-star.github.io/lapor-bug-guys-work/" class="menu-link" target="_blank">
+        <div class="icon">⚠️</div>
+        <div class="link-text">
+            <b>Lapor Bug System</b>
+            <span>Laporkan Error atau Script Rusak</span>
+        </div>
+    </a>
+
+    <footer>
+        BUILD ZONE SYSTEM © 2026<br>
+        DESIGNED FOR DaFz BY CAPYBARA x DaFz
+    </footer>
+</div>
+
+</body>
+</html>
